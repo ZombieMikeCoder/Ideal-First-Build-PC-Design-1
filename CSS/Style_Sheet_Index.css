@@ -1,0 +1,128 @@
+/* Style For Main Site Background */
+body {
+background-image: url("../Images/Random_Grey_Variations.png");
+font-family: Arial;
+margin: auto;
+width: 1024px;
+}
+
+
+/* Style For Header Logo/Text Above Menu Bar */
+.header{
+text-align: center;
+width: 1024px;
+}
+
+
+/* Style For Navigation Menu Bar Main DIV */
+.nav_bar {
+text-align: center;
+}
+
+
+/* Style For Unordered List Main Container */
+ul {
+
+padding: 0px;
+list-style: none;
+display: inline-block;
+text-align: center;
+}
+
+
+/* Style For Buttons On Nav Bar Unordered List */
+ul li {
+float: left;
+width: 200px;
+height: 40px;
+background-color: black;
+opacity: .7;
+line-height: 40px;
+text-align: center;
+font-size: 16px;
+display: inline-block;
+}
+
+
+/* Style For Page Links On The Nav Bar */ 
+ul li a {
+text-decoration: none;
+color: white;
+display: block;
+}
+
+
+/* Style For When A Menu Button Is Hovered Over */
+ul li a:hover {
+background-color: #294f8f;
+}
+
+
+/* Style To Hide Sub Page Links Under Main Headings */
+ul li ul li {
+display: none;
+}
+
+
+/* Style To Display Sub Page Links On Nav Bar When Main Heading Hovered Over */
+ul li:hover ul li {
+display: block;
+}
+
+/* Style For Middle Content DIV */
+.content {
+margin: auto;
+width: 1024px;
+}
+
+
+/* Style For The Left Text Box Within The Content DIV */
+.text_column{
+width: 500px;
+background-color: #2c5e96;
+opacity: .7;
+padding: 20px;
+border-radius: 5px;
+margin: 5px;
+float: left;
+} 
+
+
+/* Style For Title Text Heading (Welcome To Ideal First Build PC) */
+.title_text{
+color: white;
+font-size: 30px;
+text-decoration: underline;
+text-align: center;
+}
+
+
+/* Style For All Standard Text On The Page */
+.text{
+color: white;
+font-size: 16px;
+margin: 10px;
+font-family: Courier;
+text-align: justify;
+}
+
+
+/* Style For Image Container For Right Side Image */
+.image_container{
+display: inline-block;
+float: right;
+padding: 20px;
+background-color: #2c5e96;
+opacity: .7;
+padding: 20px;
+border-radius: 5px;
+margin: 5px;
+}
+
+
+/* Style For Footer Logo/Text */
+footer {
+text-align: center;
+width: 1024px;
+}
+
